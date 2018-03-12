@@ -1,0 +1,43 @@
+@font-face (Flaticon,"../../public/fonts/Flaticon.woff", woff, 600,[bold,italic])
+@font-face (fontawesome-tast, "../../public/fonts/fontawesome-webfont.woff", woff, 600, [bold,italic] )
+body 
+    height: 100%
+
+
+    header
+        background-image: url("../../public/img/banner1.jpg")
+        background-size: cover contain
+        background-position: center
+        height: 100vh
+        position: relative
+        &:before
+            content: ""
+            z-index: 1
+            position: absolute
+            top: 0
+            bottom: 0
+            right: 0
+            left: 0
+            background: rgba(0,0,0,0.64)
+            
+
+
+.textheader
+    position: absolute
+    z-index: 2
+    color: white
+    margin-top: 120px !important
+    h1
+        font-family: Flaticon
+        font-size: 60px
+
+.btnheader
+    position: absolute
+    z-index: 2
+    margin-top: 390px !important  
+    a:first-child
+        color: black
+
+.btnheader
+    .rounded 
+        border-radius: 2.25rem!important

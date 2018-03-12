@@ -1,0 +1,136 @@
+@font-face (Flaticon,"../../public/fonts/Flaticon.woff", woff, 600,[bold,italic]);
+@font-face (fontawesome-tast, "../../public/fonts/fontawesome-webfont.woff", woff, 600, [bold,italic] );
+nav {
+  z-index: 1; }
+
+ul:first-child {
+  margin-left: 75px; }
+
+ul {
+  display: flex;
+  flex-flow: row;
+  border-bottom: 1px solid white;
+  border-top: 1px solid white;
+  padding: 0 !important; }
+  ul li a {
+    display: 1;
+    color: white;
+    text-transform: uppercase; }
+    ul li a:hover {
+      background-color: #c42d40;
+      color: white; }
+
+#logo {
+  width: 140px;
+  height: 100%;
+  padding-left: 25px;
+  padding-right: 25px; }
+
+.nav-link {
+  padding-right: 2rem !important;
+  padding-left: 2rem !important; }
+
+@font-face (Flaticon,"../../public/fonts/Flaticon.woff", woff, 600,[bold,italic]);
+@font-face (fontawesome-tast, "../../public/fonts/fontawesome-webfont.woff", woff, 600, [bold,italic] );
+body {
+  height: 100%; }
+  body header {
+    background-image: url("../../public/img/banner1.jpg");
+    background-size: cover contain;
+    background-position: center;
+    height: 100vh;
+    position: relative; }
+    body header:before {
+      content: "";
+      z-index: 1;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      left: 0;
+      background: rgba(0, 0, 0, 0.64); }
+
+.textheader {
+  position: absolute;
+  z-index: 2;
+  color: white;
+  margin-top: 120px !important; }
+  .textheader h1 {
+    font-family: Flaticon;
+    font-size: 60px; }
+
+.btnheader {
+  position: absolute;
+  z-index: 2;
+  margin-top: 390px !important; }
+  .btnheader a:first-child {
+    color: black; }
+
+.btnheader .rounded {
+  border-radius: 2.25rem !important; }
+
+#story {
+  background-image: url("../../public/img/main_bg.jpg");
+  height: 100vh;
+  width: 100%;
+  top: 0; }
+
+#story2 {
+  position: relative;
+  padding-top: 30px; }
+
+#boxlt {
+  position: absolute;
+  top: 0;
+  left: 0; }
+
+#boxrt {
+  position: absolute;
+  top: 0;
+  right: 0; }
+
+#boxbl {
+  position: absolute;
+  bottom: 0;
+  left: 0; }
+
+#boxbr {
+  position: absolute;
+  bottom: 0;
+  right: 0; }
+
+.titrestory {
+  position: relative; }
+  .titrestory:before {
+    position: absolute;
+    flex: 1;
+    content: "";
+    background-image: url("../../public/img/decoration_line.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    justify-content: center; }
+
+#chef {
+  background-image: url("../../public/img/team_background.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 70vh;
+  position: relative; }
+  #chef:before {
+    content: "";
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.84); }
+  #chef .chefimg {
+    z-index: 2; }
+  #chef .titrechef {
+    z-index: 2;
+    color: white; }
+
+/*# sourceMappingURL=style.css.map */
